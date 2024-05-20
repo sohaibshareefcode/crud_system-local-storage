@@ -1,0 +1,85 @@
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+h1, h2 {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #f1f1f1;
+    display: block;
+    margin-top: 10px;
+}
+
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: none; /* Border remove */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #555;
+    color: white;
+    border: 1px solid #999; /* Light color border */
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #333; /* Dark black */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: calc(50% - 5px); /* Adjusted width with margin */
+    margin-right: 5px; /* Added margin between buttons */
+}
+
+
+button.edit {
+    background-color: #1900ff5e; /* Dark blue for edit button */
+}
+
+button.delete {
+    background-color: #dc3545; /* Dark red for delete button */
+}
+
+button:hover {
+    background-color: #4c4eae; /* Slightly lighter dark green */
+}
+
+button.edit:hover {
+    background-color: #0056b3; /* Dark blue on hover */
+}
+
+button.delete:hover {
+    background-color: #c82333; /* Dark red on hover */
+}
+
+#displayData {
+    margin-top: 20px;
+    padding: 10px;
+    color: #f1f1f1;
+    border-radius: 5px;
+    background-color: rgba(220, 220, 220, 0.137);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
